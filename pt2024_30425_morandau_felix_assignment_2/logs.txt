@@ -1,0 +1,136 @@
+Time:1
+Waiting clients:
+(2, 3, 3)(3, 6, 2)(1, 9, 2)(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:2
+Waiting clients:
+(2, 3, 3)(3, 6, 2)(1, 9, 2)(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:3
+Waiting clients:
+(3, 6, 2)(1, 9, 2)(4, 21, 2)
+Queue1: (2, 3, 3), 
+Queue2: 
+
+Time:4
+Waiting clients:
+(3, 6, 2)(1, 9, 2)(4, 21, 2)
+Queue1: (2, 3, 2), 
+Queue2: 
+
+Time:5
+Waiting clients:
+(3, 6, 2)(1, 9, 2)(4, 21, 2)
+Queue1: (2, 3, 1), 
+Queue2: 
+
+Time:6
+Waiting clients:
+(1, 9, 2)(4, 21, 2)
+Queue1: (3, 6, 2), 
+Queue2: 
+
+Time:7
+Waiting clients:
+(1, 9, 2)(4, 21, 2)
+Queue1: (3, 6, 1), 
+Queue2: 
+
+Time:8
+Waiting clients:
+(1, 9, 2)(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:9
+Waiting clients:
+(4, 21, 2)
+Queue1: (1, 9, 2), 
+Queue2: 
+
+Time:10
+Waiting clients:
+(4, 21, 2)
+Queue1: (1, 9, 1), 
+Queue2: 
+
+Time:11
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:12
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:13
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:14
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:15
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:16
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:17
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:18
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:19
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:20
+Waiting clients:
+(4, 21, 2)
+Queue1: 
+Queue2: 
+
+Time:21
+Waiting clients:
+
+Queue1: (4, 21, 2), 
+Queue2: 
+
+Time:22
+Waiting clients:
+
+Queue1: (4, 21, 1), 
+Queue2: 
+
+Simulation stats:
+--Peak hour: 3
+--Average service time: 2.25
+--Average wait time: 0.0
