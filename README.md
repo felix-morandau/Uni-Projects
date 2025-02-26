@@ -137,3 +137,79 @@ The simulation generates various statistics and logs. Example results include:
 - [Java Threads Overview](https://www.geeksforgeeks.org/java-threads/)
 - [Oracle Java Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html)
 
+
+
+# 3.Client-Order-Product Management System
+
+## Overview
+This **Client-Order-Product Management System** is a Java-based application designed to manage clients, products, and orders using a structured **Model-View-Controller (MVC)** architecture. The system handles database operations, user interactions, and business logic for efficient management of an ordering system.
+
+## Key Features
+- **Client Management:** Add, update, and retrieve client records.
+- **Product Management:** Maintain a catalog of products with details like name, price, and stock.
+- **Order Processing:** Allow clients to place orders for products.
+- **Billing System:** Generate invoices and track payments.
+- **Graphical User Interface (GUI):** User-friendly interface for managing clients, products, and orders.
+- **Database Integration:** Uses DAO classes for database interaction.
+
+## Usage
+1. **Client Operations:**
+   - Add, update, or delete clients.
+   - Retrieve client lists and details.
+2. **Product Operations:**
+   - Add, modify, or remove products.
+   - View product stock and details.
+3. **Order Processing:**
+   - Place new orders.
+   - Track order details and associated clients.
+4. **Billing and Invoices:**
+   - Generate bills and track payments.
+5. **Error Handling:**
+   - Ensures valid input and alerts users for incorrect operations.
+
+## Design & Implementation
+
+### System Architecture
+The system follows the **MVC pattern**:
+- **Model:** Represents business logic (clients, products, orders, invoices).
+- **View:** GUI components for user interaction.
+- **Controller:** Handles business logic and connects view and model.
+
+### Class Structure
+- **Model Package:**
+  - `Product`: Represents a product with attributes like name, price, and stock.
+  - `Client`: Stores client details including contact information.
+  - `Order`: Represents an order linking a client and product.
+  - `Bill`: Stores invoice-related details.
+- **Data Access Layer (DAO):**
+  - `ProductDao`: Handles database interactions for products.
+  - `ClientDao`: Manages client data retrieval and storage.
+  - `OrderDao`: Processes order transactions.
+  - `BillDao`: Manages invoice generation.
+- **Business Logic Layer (BLL):**
+  - `ProductBLL`: Manages product-related operations.
+  - `ClientBLL`: Handles client data processing.
+  - `OrderBLL`: Manages order placements and retrieval.
+- **Controller Package:**
+  - `ProductOperationsController`: Handles product-related GUI actions.
+  - `ClientOperationsController`: Manages client GUI operations.
+  - `OrderOperationsController`: Handles order processing.
+  - `MainMenuController`: Controls main menu interactions.
+- **View Package:**
+  - `MainMenu`: GUI for navigating different sections.
+  - `ProductOperations`: Interface for product management.
+  - `ClientOperations`: Interface for client management.
+  - `OrderOperations`: Interface for processing orders.
+
+## Future Improvements
+- **Enhanced GUI:** Implement graphical enhancements for better usability.
+- **Report Generation:** Generate monthly or yearly sales reports.
+- **User Authentication:** Implement login functionality for secure access.
+- **Inventory Tracking:** Automate stock updates based on order processing.
+- **REST API Integration:** Expose endpoints for external integrations.
+
+## References
+- [Java JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/)
+- [MVC Pattern in Java](https://www.geeksforgeeks.org/mvc-design-pattern/)
+- [Object-Oriented Programming Principles](https://www.baeldung.com/java-oop)
+
